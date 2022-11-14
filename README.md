@@ -1,54 +1,23 @@
-<p align="center">
-  <a href="https://airbnb-clone-gamma-livid.vercel.app/" target="_blank"><img src="assets/demo.gif"></a>
-</p>
+## Deploy your own
 
-An Airbnb clone project written in `TypeScript`. The structure and UI are built with `NEXT.js` / `TailwindCSS v3`. There are also animations using `framer-motion`, `bar-of-progress`, a practical search bar using `react-date-range`, and MapBox integration using `react-map-gl`.
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
----
-* [Airbnb Clone](#airbnb-clone)
-  * [Installation](#installation)
-  * [User Interfaces](#user-interfaces)
-  * [Functionalities](#functionalities)
-  * [Acknowledgement](#acknowledgement)
+## How to use
 
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-## Installation
+```bash
+npx create-next-app --example with-tailwindcss with-tailwindcss-app
+```
 
-* install Next.js with Typescript
-  ```
-  npx create-next-app@latest --ts airbnb-clone
-  // or npx create-next-app@latest -e with-typescript airbnb-clone
-  ```
-* install tailwindcss
-  ```
-  https://tailwindcss.com/docs/guides/nextjs
-  ```
+```bash
+yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```
 
-## User Interfaces
+```bash
+pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+```
 
-* [HomePage](pages/index.tsx)
-  * [Header & Searchbar](components/header.tsx)
-  * [Banner](components/banner.tsx)
-  * [Small Card (Explore Nearby)](components/small_card.tsx)
-  * [Medium Card (Live Anywhere)](components/medium_card.tsx)
-  * [Large Card](components/large_card.tsx)
-  * [Footer](components/footer.tsx)
-
----
-
-* [Search Page](pages/search/index.tsx)
-  * [Info Card](components/info_card.tsx)
-  * [MapBox & Markers & Popups](components/map.tsx)
-
-## Functionalities
-
-* framer-motion
-* react-date-range
-* bar-of-progress
-* mapbox-gl & react-map-gl
-* firebase
-
-## Acknowledgement
-
-* [Sonny Sangha](https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA)
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
